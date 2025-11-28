@@ -4,14 +4,31 @@ import { env } from "./config/environment";
 import { log } from "./utils/logger";
 import { runDailyIngestion } from "./jobs/daily-ingestion.job";
 import { prisma } from "./database/client";
+import { ingestionState } from "./monitoring/ingestion-state";
 
 const app = express();
 app.use(express.json());
 
 let isIngestionRunning = false;
 
-app.get("/health", (_req, res) => {
-  res.json({ status: "ok", timestamp: new Date().toISOString() });
+app.get("/health", async (_req, res) => {
+  let dbOk = true;
+  let dbError: string | undefined;
+  try {
+    await prisma.$queryRaw`SELECT 1`;
+  } catch (error) {
+    dbOk = false;
+    dbError = error instanceof Error ? error.message : "Unknown DB error";
+  }
+
+  const payload = {
+    status: dbOk ? "ok" : "degraded",
+    timestamp: new Date().toISOString(),
+    db: { ok: dbOk, error: dbError },
+    ingestion: ingestionState.snapshot(),
+  };
+
+  res.status(dbOk ? 200 : 503).json(payload);
 });
 
 app.post("/ingest", async (_req, res) => {
@@ -23,12 +40,13 @@ app.post("/ingest", async (_req, res) => {
   runDailyIngestion()
     .catch((error) => {
       log.error("Manual ingestion failed", { error });
+      ingestionState.markFailed("Manual ingestion failed", { errors: 1 });
     })
     .finally(() => {
       isIngestionRunning = false;
     });
 
-  res.json({ status: "started" });
+  res.json({ status: "started", ingestion: ingestionState.snapshot() });
 });
 
 app.get("/sources", async (_req, res) => {
