@@ -1,0 +1,96 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("SUPABASE_URL")
+  directUrl = env("SUPABASE_DIRECT_URL")
+}
+
+model Source {
+  id              String    @id @default(uuid())
+  blogName        String    @map("blog_name")
+  baseUrl         String    @map("base_url")
+  associatedTeam  String?   @map("associated_team")
+  blogType        String    @map("blog_type")
+  activeFlag      Boolean   @default(true) @map("active_flag")
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+  rawArticles     RawArticle[]
+  predictions     Prediction[]
+
+  @@map("sources")
+}
+
+model Game {
+  id          String    @id @default(uuid())
+  season      Int
+  week        Int
+  gameDate    DateTime  @map("game_date")
+  homeTeam    String    @map("home_team")
+  awayTeam    String    @map("away_team")
+  spreadLine  Float?    @map("spread_line")
+  totalLine   Float?    @map("total_line")
+  status      String    @default("scheduled")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  predictions Prediction[]
+  consensus   ConsensusScore[]
+
+  @@unique([season, week, homeTeam, awayTeam])
+  @@map("games")
+}
+
+model RawArticle {
+  id            String    @id @default(uuid())
+  sourceId      String    @map("source_id")
+  fetchedAt     DateTime  @default(now()) @map("fetched_at")
+  url           String
+  html          String    @db.Text
+  articleHash   String    @map("article_hash")
+  week          Int?
+  processed     Boolean   @default(false)
+  createdAt     DateTime  @default(now()) @map("created_at")
+  source        Source    @relation(fields: [sourceId], references: [id])
+
+  @@unique([sourceId, articleHash])
+  @@map("raw_articles")
+}
+
+model Prediction {
+  id                    String    @id @default(uuid())
+  sourceId              String    @map("source_id")
+  gameId                String    @map("game_id")
+  season                Int
+  week                  Int
+  pickType              String    @map("pick_type")
+  pickSide              String    @map("pick_side")
+  lineAtPick            Float     @map("line_at_pick")
+  extractionMethod      String    @map("extraction_method")
+  extractionConfidence  Float     @map("extraction_confidence")
+  extractedAt           DateTime  @default(now()) @map("extracted_at")
+  articleUrl            String    @map("article_url")
+  rawQuote              String?   @map("raw_quote") @db.Text
+  source                Source    @relation(fields: [sourceId], references: [id])
+  game                  Game      @relation(fields: [gameId], references: [id])
+
+  @@unique([sourceId, gameId, pickType])
+  @@map("predictions")
+}
+
+model ConsensusScore {
+  id              String    @id @default(uuid())
+  gameId          String    @map("game_id")
+  season          Int
+  week            Int
+  pickType        String    @map("pick_type")
+  majoritySide    String    @map("majority_side")
+  score           Int
+  signalLabel     String    @map("signal_label")
+  numPredictions  Int       @map("num_predictions")
+  calculatedAt    DateTime  @default(now()) @map("calculated_at")
+  game            Game      @relation(fields: [gameId], references: [id])
+
+  @@unique([gameId, pickType])
+  @@map("consensus_scores")
+}

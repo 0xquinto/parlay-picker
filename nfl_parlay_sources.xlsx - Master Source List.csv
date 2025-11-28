@@ -1,0 +1,78 @@
+Division,Team,Blog Name,URL,Network Type,Picks Format,Spread Picks,O/U Picks,Weekly Column,RSS Available,Scraping Priority,URL Pattern for Picks,Notes
+AFC East,Bills,Buffalo Rumblings,buffalorumblings.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 1,/buffalo-bills-odds/,Structured weekly picks column
+AFC East,Bills,Two Bills Drive,twobillsdrive.com,Independent,Forum,Community,Community,No,No,Tier 3,/community/,Fan forum predictions
+AFC East,Bills,Buffalo Wdown,buffalowdown.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 2,,Weekly analysis
+AFC East,Dolphins,The Phinsider,thephinsider.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/miami-dolphins-odds/,Weekly picks
+AFC East,Dolphins,Phin Phanatic,phinphanatic.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC East,Patriots,Pats Pulpit,patspulpit.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/new-england-patriots-odds/,Game predictions
+AFC East,Patriots,PatsFans.com,patsfans.com,Independent,Forum/Blog,Community,Community,Yes,No,Tier 2,/patriots/blog/,"Large community, weekly analysis"
+AFC East,Patriots,Musket Fire,musketfire.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC East,Jets,Gang Green Nation,ganggreennation.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/new-york-jets-odds/,Weekly picks
+AFC East,Jets,The Jet Press,thejetpress.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC North,Ravens,Baltimore Beatdown,baltimorebeatdown.com,SB Nation,Odds Column,Yes,Yes,Yes,Yes,Tier 1,/baltimore-ravens-odds/,Weekly betting preview
+AFC North,Ravens,Ebony Bird,ebonybird.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC North,Bengals,Cincy Jungle,cincyjungle.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/cincinnati-bengals-odds/,Game predictions
+AFC North,Bengals,Stripe Hype,stripehype.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC North,Browns,Dawgs By Nature,dawgsbynature.com,SB Nation,Odds Column,Yes,Yes,Yes,Yes,Tier 2,/cleveland-browns-betting-odds/,Weekly betting angles
+AFC North,Browns,Dawg Pound Daily,dawgpounddaily.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC North,Steelers,Behind the Steel Curtain,behindthesteelcurtain.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/pittsburgh-steelers-odds/,Weekly picks
+AFC North,Steelers,Steel Curtain Rising,steelcurtainrising.com,Independent,Analysis,Yes,Sometimes,Yes,No,Tier 2,,In-depth predictions
+AFC North,Steelers,Still Curtain,stillcurtain.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC South,Texans,Battle Red Blog,battleredblog.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/houston-texans-odds/,Game previews
+AFC South,Texans,Toro Times,torotimes.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC South,Colts,Stampede Blue,stampedeblue.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/indianapolis-colts-odds/,Playoff odds column
+AFC South,Colts,Horseshoe Heroes,horseshoeheroes.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC South,Jaguars,Big Cat Country,bigcatcountry.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/jacksonville-jaguars-odds/,Weekly picks
+AFC South,Jaguars,Black and Teal,blackandteal.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC South,Titans,Music City Miracles,musiccitymiracles.com,SB Nation,Odds Column,Yes,Yes,Yes,Yes,Tier 2,/tennessee-titans-odds/,AFC South odds weekly
+AFC South,Titans,Titan Sized,titansized.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC West,Chiefs,Arrowhead Pride,arrowheadpride.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 1,/kansas-city-chiefs-odds/,EXCELLENT - structured weekly picks
+AFC West,Chiefs,Arrowhead Addict,arrowheadaddict.com,FanSided,Game Picks,Yes,Yes,Yes,Yes,Tier 1,,"Independent, weekly picks + podcast"
+AFC West,Chiefs,Arrowhead Edge,arrowheadedge.com,Independent,Analytics,Yes,Sometimes,Yes,No,Tier 2,,Analytics-focused predictions
+AFC West,Broncos,Mile High Report,milehighreport.com,SB Nation,Roundtable,Yes,Yes,Yes,Yes,Tier 1,/denver-broncos-odds/,Score predictions roundtable
+AFC West,Broncos,Predominantly Orange,predominantlyorange.com,FanSided,Articles,Yes,Sometimes,Yes,Yes,Tier 2,,Weekly predictions
+AFC West,Raiders,Silver and Black Pride,silverandblackpride.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/las-vegas-raiders-odds/,Weekly picks
+AFC West,Raiders,Just Blog Baby,justblogbaby.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+AFC West,Chargers,Bolts From the Blue,boltsfromtheblue.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/los-angeles-chargers-odds/,Weekly picks
+AFC West,Chargers,Bolt Beat,boltbeat.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC East,Cowboys,Blogging the Boys,bloggingtheboys.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/dallas-cowboys-odds/,Game predictions
+NFC East,Cowboys,Inside the Star,insidethestar.com,Independent,Analysis,Yes,Sometimes,Yes,No,Tier 2,,In-depth weekly breakdowns
+NFC East,Cowboys,The Landry Hat,thelandryhat.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC East,Giants,Big Blue View,bigblueview.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/new-york-giants-odds/,Weekly picks
+NFC East,Giants,GMENHQ,gmenhq.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC East,Eagles,Bleeding Green Nation,bleedinggreennation.com,SB Nation,NFL Picks,Yes,Yes,Yes,Yes,Tier 1,/nfl-picks/,EXCELLENT - weekly picks all games
+NFC East,Eagles,Iggles Blitz,igglesblitz.com,Independent,Analysis,Yes,Sometimes,Yes,No,Tier 1,,QUALITY - long-running independent
+NFC East,Eagles,Inside the Iggles,insidetheiggles.com,FanSided,Articles,Yes,Sometimes,Yes,Yes,Tier 2,,Daily predictions
+NFC East,Eagles,Inside the Birds,insidethebirds.com,Independent,Podcast/Blog,Yes,Sometimes,Yes,No,Tier 2,/category/season-predictions/,Season predictions
+NFC East,Eagles,PhillyVoice Eagles,phillyvoice.com/eagles,Independent,ATS Column,Yes,Yes,Yes,No,Tier 1,,EXCELLENT - Jimmy Kempski weekly ATS
+NFC East,Commanders,Hogs Haven,hogshaven.com,SB Nation,All-Game Picks,Yes,Yes,Yes,Yes,Tier 1,/washington-commanders-odds/,EXCELLENT - writers pick EVERY game
+NFC East,Commanders,Riggos Rag,riggosrag.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC North,Bears,Windy City Gridiron,windycitygridiron.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/chicago-bears-odds/,Game previews
+NFC North,Bears,Bear Goggles On,beargoggleson.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC North,Lions,Pride of Detroit,prideofdetroit.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 1,/detroit-lions-gambling-odds/,EXCELLENT - ML/Spread/O-U weekly
+NFC North,Lions,Detroit Football Network,detroitfootball.net,Independent,Substack,Yes,Sometimes,Yes,No,Tier 2,,Beat reporter insights
+NFC North,Lions,SideLion Report,sidelionreport.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC North,Packers,Acme Packing Company,acmepackingcompany.com,SB Nation,NFC North Picks,Yes,Yes,Yes,Yes,Tier 2,/green-bay-packers-odds/,Division predictions
+NFC North,Packers,Lombardi Ave,lombardiave.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC North,Vikings,Daily Norseman,dailynorseman.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/minnesota-vikings-odds/,Weekly picks
+NFC North,Vikings,Vikings Territory,vikingsterritory.com,Independent,Analysis,Yes,Sometimes,Yes,No,Tier 2,,Season predictions
+NFC North,Vikings,The Viking Age,thevikingage.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC South,Falcons,The Falcoholic,thefalcoholic.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/atlanta-falcons-odds/,NFC South analysis
+NFC South,Falcons,Blogging Dirty,bloggingdirty.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC South,Panthers,Cat Scratch Reader,catscratchreader.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/carolina-panthers-odds/,Weekly picks
+NFC South,Panthers,Cat Crave,catcrave.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC South,Saints,Canal Street Chronicles,canalstreetchronicles.com,SB Nation,NFC South Column,Yes,Yes,Yes,Yes,Tier 2,/new-orleans-saints-odds/,State of NFC South weekly
+NFC South,Saints,Who Dat Dish,whodatdish.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC South,Buccaneers,Bucs Nation,bucsnation.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/tampa-bay-buccaneers-odds/,Weekly picks
+NFC South,Buccaneers,Pewter Report,pewterreport.com,Independent,Roundtable,Yes,Yes,Yes,No,Tier 1,,EXCELLENT - roundtable predictions
+NFC South,Buccaneers,JoeBucsFan.com,joebucsfan.com,Independent,Game Threads,Community,Community,Yes,No,Tier 2,,Active game threads
+NFC South,Buccaneers,The Pewter Plank,thepewterplank.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC West,Cardinals,Revenge of the Birds,revengeofthebirds.com,SB Nation,ATS Competition,Yes,Yes,Yes,Yes,Tier 1,/arizona-cardinals-odds/,EXCELLENT - Pick 3 vs Spread
+NFC West,Cardinals,Raising Zona,raisingzona.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC West,Rams,Turf Show Times,turfshowtimes.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/los-angeles-rams-odds/,Weekly picks
+NFC West,Rams,Ramblin Fan,ramblinfan.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC West,49ers,Niners Nation,ninersnation.com,SB Nation,Odds Column,Yes,Yes,Yes,Yes,Tier 2,/san-francisco-49ers-odds/,Weekly betting columns
+NFC West,49ers,Niner Noise,ninernoise.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
+NFC West,Seahawks,Field Gulls,fieldgulls.com,SB Nation,Staff Picks,Yes,Yes,Yes,Yes,Tier 2,/seattle-seahawks-betting-odds/,Win total analysis
+NFC West,Seahawks,The Dang Apostrophe,dannyoneil.com,Independent,Substack,Yes,Sometimes,Yes,No,Tier 2,,Weekly newsletter
+NFC West,Seahawks,12th Man Rising,12thmanrising.com,FanSided,Articles,Sometimes,Sometimes,No,Yes,Tier 3,,Weekly analysis
