@@ -184,3 +184,17 @@ export const teamCodeToName = (code: TeamCode | string): string | null => {
 };
 
 export const TEAM_CODE_LIST: TeamCode[] = [...TEAM_CODES];
+
+export const getTeamAliases = (code: TeamCode): string[] => {
+  const name = teamCodeToName(code);
+  const aliases = Object.entries(aliasToCode)
+    .filter(([, value]) => value === code)
+    .map(([alias]) => alias);
+
+  return [
+    code.toLowerCase(),
+    code.toUpperCase(),
+    ...(name ? [name, name.toLowerCase()] : []),
+    ...aliases,
+  ];
+};
